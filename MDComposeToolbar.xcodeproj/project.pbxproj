@@ -8,16 +8,75 @@
 
 /* Begin PBXBuildFile section */
 		AB42F00A220181F300D97E2B /* MDComposeToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = AB42F008220181F300D97E2B /* MDComposeToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB42F0182201822000D97E2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42F0172201822000D97E2B /* AppDelegate.swift */; };
+		AB42F01A2201822000D97E2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42F0192201822000D97E2B /* ViewController.swift */; };
+		AB42F01D2201822000D97E2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB42F01B2201822000D97E2B /* Main.storyboard */; };
+		AB42F01F2201822300D97E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB42F01E2201822300D97E2B /* Assets.xcassets */; };
+		AB42F0222201822300D97E2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB42F0202201822300D97E2B /* LaunchScreen.storyboard */; };
+		AB42F0282201826600D97E2B /* MDComposeToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42F0272201826600D97E2B /* MDComposeToolbar.swift */; };
+		AB42F02A2201840900D97E2B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42F0292201840900D97E2B /* Constants.swift */; };
+		AB42F02C2201879700D97E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB42F02B2201879700D97E2B /* Assets.xcassets */; };
+		AB42F0452201914F00D97E2B /* MDComposeToolbar.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB42F005220181F300D97E2B /* MDComposeToolbar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AB42F04722019D6E00D97E2B /* Notepad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB42F04622019D6E00D97E2B /* Notepad.framework */; };
+		B753B82883413BD5833344B9 /* Pods_MDComposeToolbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA11C20DDE879F73B8979E06 /* Pods_MDComposeToolbar.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AB42F03222018EF600D97E2B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB42F0442201914700D97E2B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AB42F0452201914F00D97E2B /* MDComposeToolbar.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5DE21F95814D9A921A8C0466 /* Pods_MDComposeToolbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDComposeToolbar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C8876B209D398914AE4426 /* Pods-MDComposeToolbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDComposeToolbar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDComposeToolbar/Pods-MDComposeToolbar.debug.xcconfig"; sourceTree = "<group>"; };
+		8B04F30AE638884028666F7F /* Pods-MDComposeToolbar-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDComposeToolbar-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDComposeToolbar-Example/Pods-MDComposeToolbar-Example.release.xcconfig"; sourceTree = "<group>"; };
 		AB42F005220181F300D97E2B /* MDComposeToolbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDComposeToolbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB42F008220181F300D97E2B /* MDComposeToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDComposeToolbar.h; sourceTree = "<group>"; };
 		AB42F009220181F300D97E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB42F0152201822000D97E2B /* MDComposeToolbar-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDComposeToolbar-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB42F0172201822000D97E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB42F0192201822000D97E2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB42F01C2201822000D97E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB42F01E2201822300D97E2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB42F0212201822300D97E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB42F0232201822300D97E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB42F0272201826600D97E2B /* MDComposeToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDComposeToolbar.swift; sourceTree = "<group>"; };
+		AB42F0292201840900D97E2B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AB42F02B2201879700D97E2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB42F04622019D6E00D97E2B /* Notepad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Notepad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77E054D9E68ABA2BBA17C3B /* Pods-MDComposeToolbar-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDComposeToolbar-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDComposeToolbar-Example/Pods-MDComposeToolbar-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C4745401A79B4C37C676685C /* Pods-MDComposeToolbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDComposeToolbar.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDComposeToolbar/Pods-MDComposeToolbar.release.xcconfig"; sourceTree = "<group>"; };
+		DA11C20DDE879F73B8979E06 /* Pods_MDComposeToolbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDComposeToolbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AB42F002220181F300D97E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB42F04722019D6E00D97E2B /* Notepad.framework in Frameworks */,
+				B753B82883413BD5833344B9 /* Pods_MDComposeToolbar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB42F0122201822000D97E2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -27,11 +86,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E97E936ECAF42362BFFF7EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB42F04622019D6E00D97E2B /* Notepad.framework */,
+				DA11C20DDE879F73B8979E06 /* Pods_MDComposeToolbar.framework */,
+				5DE21F95814D9A921A8C0466 /* Pods_MDComposeToolbar_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C14C5938DF401C3E1088425 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85C8876B209D398914AE4426 /* Pods-MDComposeToolbar.debug.xcconfig */,
+				C4745401A79B4C37C676685C /* Pods-MDComposeToolbar.release.xcconfig */,
+				B77E054D9E68ABA2BBA17C3B /* Pods-MDComposeToolbar-Example.debug.xcconfig */,
+				8B04F30AE638884028666F7F /* Pods-MDComposeToolbar-Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AB42EFFB220181F300D97E2B = {
 			isa = PBXGroup;
 			children = (
 				AB42F007220181F300D97E2B /* MDComposeToolbar */,
+				AB42F0162201822000D97E2B /* MDComposeToolbar-Example */,
 				AB42F006220181F300D97E2B /* Products */,
+				6C14C5938DF401C3E1088425 /* Pods */,
+				5E97E936ECAF42362BFFF7EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				AB42F005220181F300D97E2B /* MDComposeToolbar.framework */,
+				AB42F0152201822000D97E2B /* MDComposeToolbar-Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,9 +131,25 @@
 			isa = PBXGroup;
 			children = (
 				AB42F008220181F300D97E2B /* MDComposeToolbar.h */,
+				AB42F0272201826600D97E2B /* MDComposeToolbar.swift */,
 				AB42F009220181F300D97E2B /* Info.plist */,
+				AB42F0292201840900D97E2B /* Constants.swift */,
+				AB42F02B2201879700D97E2B /* Assets.xcassets */,
 			);
 			path = MDComposeToolbar;
+			sourceTree = "<group>";
+		};
+		AB42F0162201822000D97E2B /* MDComposeToolbar-Example */ = {
+			isa = PBXGroup;
+			children = (
+				AB42F0172201822000D97E2B /* AppDelegate.swift */,
+				AB42F0192201822000D97E2B /* ViewController.swift */,
+				AB42F01B2201822000D97E2B /* Main.storyboard */,
+				AB42F01E2201822300D97E2B /* Assets.xcassets */,
+				AB42F0202201822300D97E2B /* LaunchScreen.storyboard */,
+				AB42F0232201822300D97E2B /* Info.plist */,
+			);
+			path = "MDComposeToolbar-Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,10 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB42F00D220181F300D97E2B /* Build configuration list for PBXNativeTarget "MDComposeToolbar" */;
 			buildPhases = (
+				9AD4A8C4187D4E31BB90A18D /* [CP] Check Pods Manifest.lock */,
 				AB42F000220181F300D97E2B /* Headers */,
 				AB42F001220181F300D97E2B /* Sources */,
 				AB42F002220181F300D97E2B /* Frameworks */,
 				AB42F003220181F300D97E2B /* Resources */,
+				AB42F03222018EF600D97E2B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -84,16 +186,41 @@
 			productReference = AB42F005220181F300D97E2B /* MDComposeToolbar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		AB42F0142201822000D97E2B /* MDComposeToolbar-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB42F0242201822300D97E2B /* Build configuration list for PBXNativeTarget "MDComposeToolbar-Example" */;
+			buildPhases = (
+				E12DBABB7CFF1F452F52D741 /* [CP] Check Pods Manifest.lock */,
+				AB42F0112201822000D97E2B /* Sources */,
+				AB42F0122201822000D97E2B /* Frameworks */,
+				AB42F0132201822000D97E2B /* Resources */,
+				5F3443FABA20D684E9F35F17 /* [CP] Embed Pods Frameworks */,
+				AB42F0442201914700D97E2B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MDComposeToolbar-Example";
+			productName = "MDComposeToolbar-Example";
+			productReference = AB42F0152201822000D97E2B /* MDComposeToolbar-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		AB42EFFC220181F300D97E2B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Two Lambda";
 				TargetAttributes = {
 					AB42F004220181F300D97E2B = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					AB42F0142201822000D97E2B = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -104,6 +231,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = AB42EFFB220181F300D97E2B;
 			productRefGroup = AB42F006220181F300D97E2B /* Products */;
@@ -111,6 +239,7 @@
 			projectRoot = "";
 			targets = (
 				AB42F004220181F300D97E2B /* MDComposeToolbar */,
+				AB42F0142201822000D97E2B /* MDComposeToolbar-Example */,
 			);
 		};
 /* End PBXProject section */
@@ -120,20 +249,130 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB42F02C2201879700D97E2B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB42F0132201822000D97E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB42F0222201822300D97E2B /* LaunchScreen.storyboard in Resources */,
+				AB42F01F2201822300D97E2B /* Assets.xcassets in Resources */,
+				AB42F01D2201822000D97E2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F3443FABA20D684E9F35F17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MDComposeToolbar-Example/Pods-MDComposeToolbar-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Notepad/Notepad.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Notepad.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDComposeToolbar-Example/Pods-MDComposeToolbar-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AD4A8C4187D4E31BB90A18D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDComposeToolbar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E12DBABB7CFF1F452F52D741 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDComposeToolbar-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB42F001220181F300D97E2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB42F0282201826600D97E2B /* MDComposeToolbar.swift in Sources */,
+				AB42F02A2201840900D97E2B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB42F0112201822000D97E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB42F01A2201822000D97E2B /* ViewController.swift in Sources */,
+				AB42F0182201822000D97E2B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB42F01B2201822000D97E2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB42F01C2201822000D97E2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB42F0202201822300D97E2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB42F0212201822300D97E2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AB42F00B220181F300D97E2B /* Debug */ = {
@@ -260,7 +499,9 @@
 		};
 		AB42F00E220181F300D97E2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C8876B209D398914AE4426 /* Pods-MDComposeToolbar.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,14 +519,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.twolambdalabs.MDComposeToolbar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AB42F00F220181F300D97E2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4745401A79B4C37C676685C /* Pods-MDComposeToolbar.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -304,7 +548,45 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AB42F0252201822300D97E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77E054D9E68ABA2BBA17C3B /* Pods-MDComposeToolbar-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83X459G38K;
+				INFOPLIST_FILE = "MDComposeToolbar-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twolambdalabs.MDComposeToolbar-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AB42F0262201822300D97E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B04F30AE638884028666F7F /* Pods-MDComposeToolbar-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83X459G38K;
+				INFOPLIST_FILE = "MDComposeToolbar-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twolambdalabs.MDComposeToolbar-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -325,6 +607,15 @@
 			buildConfigurations = (
 				AB42F00E220181F300D97E2B /* Debug */,
 				AB42F00F220181F300D97E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB42F0242201822300D97E2B /* Build configuration list for PBXNativeTarget "MDComposeToolbar-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB42F0252201822300D97E2B /* Debug */,
+				AB42F0262201822300D97E2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
