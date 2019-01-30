@@ -10,6 +10,7 @@ A very simple UI component that allows users to input markdown styled text. A de
 Cocoapods:
 
 ```bash
+pod 'Notepad', :git => 'https://github.com/ruddfawcett/Notepad'
 pod 'MDComposeToolbar', :git => 'https://github.com/Two-Lambda-Labs/MDComposeToolbar'
 ```
 
