@@ -36,6 +36,8 @@ extension ViewController: MDComposeToolbarDelegate {
 
 See `MDComposeToolbar-Example` directory for an example and demo of the toolbar.
 
+![Screenshot](https://danek.me/content/1-projects/screenshot-gallery.png)
+
 ## Release History
 
 * 0.0.1
