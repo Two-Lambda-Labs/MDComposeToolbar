@@ -17,7 +17,7 @@ internal struct Constants {
 	static let ImageSize = CGFloat(30.0)
 
 	// Toolbar Backing's Corner Radius
-	static let CornerRadius = CGFloat(5.0)
+	static let CornerRadius = CGFloat(10.0)
 
 	// Varying Constants for Auto Layout
 	static let EditorVerticlePadding = CGFloat(5.5)

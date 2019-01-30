@@ -15,6 +15,20 @@ public protocol MDComposeToolbarDelegate {
 
 public class MDComposeToolbar: UIViewController, UITextViewDelegate {
 
+	// MARK: Customizable
+
+	/// Notepad theme
+	public var theme: Theme = Theme("solarized-dark")
+
+	/// Text prefilled in the markdown editor
+	public var placeholderText: String = "Enter here"
+
+	/// Image for button that expands the toolbar
+	public var actionButtonImage: UIImage? = UIImage(named: "Pencil", in: Bundle(for: MDComposeToolbar.self), compatibleWith: nil)
+
+	/// Image for button that saves and collapses the toolbar
+	public var saveButtonImage: UIImage? = UIImage(named: "Rocket", in: Bundle(for: MDComposeToolbar.self), compatibleWith: nil)
+
 	// MARK: Properties
 	public var delegate: MDComposeToolbarDelegate?
 	public var isMaximized: Bool = false {
@@ -27,7 +41,7 @@ public class MDComposeToolbar: UIViewController, UITextViewDelegate {
 
 	private lazy var toolbarBacking: UIView = {
 		let view = UIView()
-		view.backgroundColor = Constants.BlackGrayColor
+		view.backgroundColor = theme.backgroundColor
 		view.layer.cornerRadius = Constants.CornerRadius
 		return view
 	}()
@@ -35,20 +49,20 @@ public class MDComposeToolbar: UIViewController, UITextViewDelegate {
 	private lazy var actionButton: UIButton = {
 		let button = UIButton()
 		button.setTitle("", for: .normal)
-		button.setImage(UIImage(named: "Pencil", in: Bundle(for: MDComposeToolbar.self), compatibleWith: nil), for: .normal)
+		button.setImage(actionButtonImage, for: .normal)
 		return button
 	}()
 
 	private lazy var saveButton: UIButton = {
 		let button = UIButton()
 		button.setTitle("", for: .normal)
-		button.setImage(UIImage(named: "Rocket", in: Bundle(for: MDComposeToolbar.self), compatibleWith: nil), for: .normal)
+		button.setImage(saveButtonImage, for: .normal)
 		return button
 	}()
 
 	private lazy var editor: Notepad = {
-		let editor = Notepad(frame: .zero, themeFile: "base16-tomorrow-dark")
-		editor.text = "Enter here"
+		let editor = Notepad(frame: .zero, theme: theme)
+		editor.text = placeholderText
 		editor.backgroundColor = .clear
 		return editor
 	}()
@@ -122,7 +136,7 @@ public class MDComposeToolbar: UIViewController, UITextViewDelegate {
 			saveButton.heightAnchor.constraint(equalToConstant: Constants.ImageSize),
 			saveButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
 			saveButton.leftAnchor.constraint(equalTo: editor.rightAnchor),
-			saveButton.rightAnchor.constraint(equalTo: toolbarBacking.rightAnchor)
+			saveButton.rightAnchor.constraint(equalTo: toolbarBacking.rightAnchor, constant: -Constants.EditorHorizontalPadding)
 		])
 
 		NSLayoutConstraint.activate([
@@ -165,7 +179,7 @@ public class MDComposeToolbar: UIViewController, UITextViewDelegate {
 		// Perform delegate callback and reset editor
 		self.isMaximized = false
 		delegate?.toolbarDidFinish(with: editor.text)
-		editor.text = ""
+		editor.text = placeholderText
 	}
 
 	@objc private func keyboardWillShow(notification: Notification) {
