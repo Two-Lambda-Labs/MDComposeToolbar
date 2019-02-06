@@ -2,6 +2,8 @@
 > Drop-in Toolbar UI for inputting markdown based text. Made in Swift for iOS.
 
 
+![](https://img.shields.io/badge/platform-iOS-red.svg)  ![](https://img.shields.io/badge/language-Swift%204.2-orange.svg)
+
 A very simple UI component that allows users to input markdown styled text. A delegate callback makes it really easy to embed this in your project and get running in minutes.
 
 
